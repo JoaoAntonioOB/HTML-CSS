@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+
+    <style>
+        @font-face {
+            font-family: 'quinor' ;
+            src: url('QUINOR.otf') format(opentype);
+
+            /*
+                Tipos de format()
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded-opentype
+                - truetype-att (Apple Advanced Typography)
+                -svg
+                */
+        }
+        body {
+            font-family: 'quinor';
+        }
+
+        h1 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem minima sed ipsum unde officia facilis, maiores laborum cupiditate repellat. Quidem, perspiciatis? Explicabo neque, voluptates sapiente soluta quo accusantium quos harum.</p>
+</body>
+</html>
