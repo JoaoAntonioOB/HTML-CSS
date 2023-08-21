@@ -39,13 +39,14 @@ menu {
 
 menu > ul {
     list-style-type: none;
+    background-color: rgb(128, 128, 128);
 }
 
 menu > ul > li > a {
     display: block;
     padding: 10px;
     text-decoration: none;
-    background-color: rgba(128, 128, 128, 0.722);
+    background-color: rgb(128, 128, 128);
     color: white;
     text-align: center;
     border-top: 2px solid rgb(160, 160, 160);
